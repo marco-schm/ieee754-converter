@@ -97,8 +97,8 @@ int main(int argc, char *argv[]) {
     print_binary_representation(ieee754_size, ieee754_bits);
 
 
-    free(ieee754_bits),
-            free(exponent_bits);
+    free(ieee754_bits);
+    free(exponent_bits);
     free(integral_bits);
     free(fractional_bits);
     return 0;
